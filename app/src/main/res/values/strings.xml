@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="textview">TextView</string>
+    <string name="freqview">Peak Freq = %1$s</string>
+    <string name="pnameview">PitchName = %1$s</string>
+</resources>
