@@ -222,7 +222,7 @@ public class MainActivity : AppCompatActivity() {
     }
 
     private fun convertScaleToString(scale: Double): String{
-        val precision = 2
+        val precision = 2 // 判定精度
 
         var s = scale.toInt()
         if(scale-s >= 0.5){
@@ -261,6 +261,7 @@ public class MainActivity : AppCompatActivity() {
             22 -> value = "G#"
             23 -> value = "G#+"
         }
+        value += soct + 2;
         return value
     }
 
